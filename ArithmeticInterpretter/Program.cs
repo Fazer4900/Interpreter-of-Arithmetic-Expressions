@@ -10,6 +10,7 @@ namespace ArithmeticInterpretter
         static void Main(string[] args)
         {
             int numberOfExpresions = -10;
+            Console.WriteLine("kolik budete zadavat expresions ?");
             if(!int.TryParse(Console.ReadLine(), out numberOfExpresions) || numberOfExpresions < 0)
             {
                 throw new Exception();
@@ -25,20 +26,16 @@ namespace ArithmeticInterpretter
                 string expression = Console.ReadLine();
                 if(expression == string.Empty)
                 {
-                    Console.WriteLine("Error"); ;
+                    Console.WriteLine("Error empty"); 
                     continue;
                 }
 
-                
-
-
-
-
+                Console.WriteLine(evaluator.evaluate(expression));
             }
 
 
-            
-            Console.WriteLine("Hello, World!");
+            Console.ReadKey();
+  
         }
     }
 }

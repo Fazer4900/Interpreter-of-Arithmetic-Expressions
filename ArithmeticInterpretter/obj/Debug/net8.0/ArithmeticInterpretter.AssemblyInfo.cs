@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArithmeticInterpretter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41cd1bd50248c14c73d77a0468e9c7ff31d48c5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArithmeticInterpretter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArithmeticInterpretter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

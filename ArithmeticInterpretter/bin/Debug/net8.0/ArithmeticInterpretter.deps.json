@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ArithmeticInterpretter/1.0.0": {
+        "runtime": {
+          "ArithmeticInterpretter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArithmeticInterpretter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
